@@ -12,6 +12,7 @@
     display: flex;
     background-color: #04B4E0;
     border-radius: 20px;
+    box-shadow: 5px 5px 20px 5px rgb(192, 191, 191);
 }
 
 #main .main__content__left{
@@ -20,17 +21,17 @@
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
     position: relative;
-
 }
+
 #main .main__content__right{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 70%;
+    width: 75%;
     background-color: #FFFFFF;
-    border-radius: 20px;
-
+    border-radius: 15px;
 }
+
 .main__content__left__top__img > img{
     display: block;
     max-width: 200px;
@@ -179,7 +180,7 @@ h6{
     justify-content: center;
     height: 60px;
     width:100%;
-    padding-top: 15px;
+    padding-top: 25px;
 }
 .main__tools__bottom > div > i{
     font-size: 30px;
